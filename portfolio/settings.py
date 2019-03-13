@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # Real password
-SECRET_KEY = 'zs1@%f3cwofrjm7%qpvrmp*)v_$dez*#50(tu4)^9ry+kf*7_9'
+SECRET_KEY = 'zs1@%f3cwofrjm7%qpvrmp*)v_$dez*#50(tu4)^9ry+kf*7_9'   
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -137,6 +137,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 try:
-    from local_settings import *
+    from .local_settings import *
 except ImportError:
     pass 
