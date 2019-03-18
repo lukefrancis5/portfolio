@@ -10,7 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 # find db password
-# fix database 
+# fix database
+# fix try catch  
 
 import os
 
