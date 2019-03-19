@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 """
 # find db password
 # fix database
-# fix try catch  
+# fix try catch
+# update admin       
 
 import os
 
