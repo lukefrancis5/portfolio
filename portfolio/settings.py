@@ -12,7 +12,9 @@ https://docs.djangoproject.com/en/2.1/ref/settings/
 # find db password
 # fix database
 # fix try catch
-# update admin       
+# update admin
+# fix settings.py to so that github settings work properly
+       
 
 import os
 
